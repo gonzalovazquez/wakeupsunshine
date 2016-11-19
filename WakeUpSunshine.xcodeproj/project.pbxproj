@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4FCC87E1DE0E18100D9097D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FCC87D1DE0E18100D9097D /* AppDelegate.swift */; };
+		A4FCC8801DE0E18100D9097D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FCC87F1DE0E18100D9097D /* ViewController.swift */; };
+		A4FCC8831DE0E18100D9097D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FCC8811DE0E18100D9097D /* Main.storyboard */; };
+		A4FCC8851DE0E18100D9097D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FCC8841DE0E18100D9097D /* Assets.xcassets */; };
+		A4FCC8901DE0E18100D9097D /* WakeUpSunshineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FCC88F1DE0E18100D9097D /* WakeUpSunshineTests.swift */; };
+		A4FCC89B1DE0E18100D9097D /* WakeUpSunshineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FCC89A1DE0E18100D9097D /* WakeUpSunshineUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4FCC88C1DE0E18100D9097D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4FCC8721DE0E18100D9097D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4FCC8791DE0E18100D9097D;
+			remoteInfo = WakeUpSunshine;
+		};
+		A4FCC8971DE0E18100D9097D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4FCC8721DE0E18100D9097D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4FCC8791DE0E18100D9097D;
+			remoteInfo = WakeUpSunshine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4FCC87A1DE0E18100D9097D /* WakeUpSunshine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeUpSunshine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FCC87D1DE0E18100D9097D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4FCC87F1DE0E18100D9097D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4FCC8821DE0E18100D9097D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4FCC8841DE0E18100D9097D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4FCC8861DE0E18100D9097D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FCC88B1DE0E18100D9097D /* WakeUpSunshineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeUpSunshineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FCC88F1DE0E18100D9097D /* WakeUpSunshineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpSunshineTests.swift; sourceTree = "<group>"; };
+		A4FCC8911DE0E18100D9097D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FCC8961DE0E18100D9097D /* WakeUpSunshineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeUpSunshineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FCC89A1DE0E18100D9097D /* WakeUpSunshineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpSunshineUITests.swift; sourceTree = "<group>"; };
+		A4FCC89C1DE0E18100D9097D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4FCC8771DE0E18100D9097D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FCC8881DE0E18100D9097D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FCC8931DE0E18100D9097D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4FCC8711DE0E18100D9097D = {
+			isa = PBXGroup;
+			children = (
+				A4FCC87C1DE0E18100D9097D /* WakeUpSunshine */,
+				A4FCC88E1DE0E18100D9097D /* WakeUpSunshineTests */,
+				A4FCC8991DE0E18100D9097D /* WakeUpSunshineUITests */,
+				A4FCC87B1DE0E18100D9097D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4FCC87B1DE0E18100D9097D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FCC87A1DE0E18100D9097D /* WakeUpSunshine.app */,
+				A4FCC88B1DE0E18100D9097D /* WakeUpSunshineTests.xctest */,
+				A4FCC8961DE0E18100D9097D /* WakeUpSunshineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4FCC87C1DE0E18100D9097D /* WakeUpSunshine */ = {
+			isa = PBXGroup;
+			children = (
+				A4FCC87D1DE0E18100D9097D /* AppDelegate.swift */,
+				A4FCC87F1DE0E18100D9097D /* ViewController.swift */,
+				A4FCC8811DE0E18100D9097D /* Main.storyboard */,
+				A4FCC8841DE0E18100D9097D /* Assets.xcassets */,
+				A4FCC8861DE0E18100D9097D /* Info.plist */,
+			);
+			path = WakeUpSunshine;
+			sourceTree = "<group>";
+		};
+		A4FCC88E1DE0E18100D9097D /* WakeUpSunshineTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4FCC88F1DE0E18100D9097D /* WakeUpSunshineTests.swift */,
+				A4FCC8911DE0E18100D9097D /* Info.plist */,
+			);
+			path = WakeUpSunshineTests;
+			sourceTree = "<group>";
+		};
+		A4FCC8991DE0E18100D9097D /* WakeUpSunshineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4FCC89A1DE0E18100D9097D /* WakeUpSunshineUITests.swift */,
+				A4FCC89C1DE0E18100D9097D /* Info.plist */,
+			);
+			path = WakeUpSunshineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4FCC8791DE0E18100D9097D /* WakeUpSunshine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FCC89F1DE0E18100D9097D /* Build configuration list for PBXNativeTarget "WakeUpSunshine" */;
+			buildPhases = (
+				A4FCC8761DE0E18100D9097D /* Sources */,
+				A4FCC8771DE0E18100D9097D /* Frameworks */,
+				A4FCC8781DE0E18100D9097D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakeUpSunshine;
+			productName = WakeUpSunshine;
+			productReference = A4FCC87A1DE0E18100D9097D /* WakeUpSunshine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4FCC88A1DE0E18100D9097D /* WakeUpSunshineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FCC8A21DE0E18100D9097D /* Build configuration list for PBXNativeTarget "WakeUpSunshineTests" */;
+			buildPhases = (
+				A4FCC8871DE0E18100D9097D /* Sources */,
+				A4FCC8881DE0E18100D9097D /* Frameworks */,
+				A4FCC8891DE0E18100D9097D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4FCC88D1DE0E18100D9097D /* PBXTargetDependency */,
+			);
+			name = WakeUpSunshineTests;
+			productName = WakeUpSunshineTests;
+			productReference = A4FCC88B1DE0E18100D9097D /* WakeUpSunshineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4FCC8951DE0E18100D9097D /* WakeUpSunshineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FCC8A51DE0E18100D9097D /* Build configuration list for PBXNativeTarget "WakeUpSunshineUITests" */;
+			buildPhases = (
+				A4FCC8921DE0E18100D9097D /* Sources */,
+				A4FCC8931DE0E18100D9097D /* Frameworks */,
+				A4FCC8941DE0E18100D9097D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4FCC8981DE0E18100D9097D /* PBXTargetDependency */,
+			);
+			name = WakeUpSunshineUITests;
+			productName = WakeUpSunshineUITests;
+			productReference = A4FCC8961DE0E18100D9097D /* WakeUpSunshineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4FCC8721DE0E18100D9097D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Gonzalo Vazquez";
+				TargetAttributes = {
+					A4FCC8791DE0E18100D9097D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VW4PC7S3M3;
+						ProvisioningStyle = Automatic;
+					};
+					A4FCC88A1DE0E18100D9097D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VW4PC7S3M3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4FCC8791DE0E18100D9097D;
+					};
+					A4FCC8951DE0E18100D9097D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VW4PC7S3M3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4FCC8791DE0E18100D9097D;
+					};
+				};
+			};
+			buildConfigurationList = A4FCC8751DE0E18100D9097D /* Build configuration list for PBXProject "WakeUpSunshine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4FCC8711DE0E18100D9097D;
+			productRefGroup = A4FCC87B1DE0E18100D9097D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4FCC8791DE0E18100D9097D /* WakeUpSunshine */,
+				A4FCC88A1DE0E18100D9097D /* WakeUpSunshineTests */,
+				A4FCC8951DE0E18100D9097D /* WakeUpSunshineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4FCC8781DE0E18100D9097D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FCC8851DE0E18100D9097D /* Assets.xcassets in Resources */,
+				A4FCC8831DE0E18100D9097D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FCC8891DE0E18100D9097D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FCC8941DE0E18100D9097D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FCC8761DE0E18100D9097D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FCC8801DE0E18100D9097D /* ViewController.swift in Sources */,
+				A4FCC87E1DE0E18100D9097D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FCC8871DE0E18100D9097D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FCC8901DE0E18100D9097D /* WakeUpSunshineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FCC8921DE0E18100D9097D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FCC89B1DE0E18100D9097D /* WakeUpSunshineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4FCC88D1DE0E18100D9097D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4FCC8791DE0E18100D9097D /* WakeUpSunshine */;
+			targetProxy = A4FCC88C1DE0E18100D9097D /* PBXContainerItemProxy */;
+		};
+		A4FCC8981DE0E18100D9097D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4FCC8791DE0E18100D9097D /* WakeUpSunshine */;
+			targetProxy = A4FCC8971DE0E18100D9097D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4FCC8811DE0E18100D9097D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FCC8821DE0E18100D9097D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4FCC89D1DE0E18100D9097D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A4FCC89E1DE0E18100D9097D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4FCC8A01DE0E18100D9097D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = VW4PC7S3M3;
+				INFOPLIST_FILE = WakeUpSunshine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.gonzalovazquez.WakeUpSunshine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A4FCC8A11DE0E18100D9097D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = VW4PC7S3M3;
+				INFOPLIST_FILE = WakeUpSunshine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.gonzalovazquez.WakeUpSunshine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A4FCC8A31DE0E18100D9097D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VW4PC7S3M3;
+				INFOPLIST_FILE = WakeUpSunshineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.gonzalovazquez.WakeUpSunshineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeUpSunshine.app/WakeUpSunshine";
+			};
+			name = Debug;
+		};
+		A4FCC8A41DE0E18100D9097D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VW4PC7S3M3;
+				INFOPLIST_FILE = WakeUpSunshineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.gonzalovazquez.WakeUpSunshineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeUpSunshine.app/WakeUpSunshine";
+			};
+			name = Release;
+		};
+		A4FCC8A61DE0E18100D9097D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VW4PC7S3M3;
+				INFOPLIST_FILE = WakeUpSunshineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.gonzalovazquez.WakeUpSunshineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WakeUpSunshine;
+			};
+			name = Debug;
+		};
+		A4FCC8A71DE0E18100D9097D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VW4PC7S3M3;
+				INFOPLIST_FILE = WakeUpSunshineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.gonzalovazquez.WakeUpSunshineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WakeUpSunshine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4FCC8751DE0E18100D9097D /* Build configuration list for PBXProject "WakeUpSunshine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FCC89D1DE0E18100D9097D /* Debug */,
+				A4FCC89E1DE0E18100D9097D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FCC89F1DE0E18100D9097D /* Build configuration list for PBXNativeTarget "WakeUpSunshine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FCC8A01DE0E18100D9097D /* Debug */,
+				A4FCC8A11DE0E18100D9097D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4FCC8A21DE0E18100D9097D /* Build configuration list for PBXNativeTarget "WakeUpSunshineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FCC8A31DE0E18100D9097D /* Debug */,
+				A4FCC8A41DE0E18100D9097D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4FCC8A51DE0E18100D9097D /* Build configuration list for PBXNativeTarget "WakeUpSunshineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FCC8A61DE0E18100D9097D /* Debug */,
+				A4FCC8A71DE0E18100D9097D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4FCC8721DE0E18100D9097D /* Project object */;
+}
