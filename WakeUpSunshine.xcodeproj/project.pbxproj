@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A4FCC87E1DE0E18100D9097D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FCC87D1DE0E18100D9097D /* AppDelegate.swift */; };
-		A4FCC8801DE0E18100D9097D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FCC87F1DE0E18100D9097D /* ViewController.swift */; };
-		A4FCC8831DE0E18100D9097D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FCC8811DE0E18100D9097D /* Main.storyboard */; };
 		A4FCC8851DE0E18100D9097D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FCC8841DE0E18100D9097D /* Assets.xcassets */; };
 		A4FCC8901DE0E18100D9097D /* WakeUpSunshineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FCC88F1DE0E18100D9097D /* WakeUpSunshineTests.swift */; };
 		A4FCC89B1DE0E18100D9097D /* WakeUpSunshineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FCC89A1DE0E18100D9097D /* WakeUpSunshineUITests.swift */; };
@@ -35,8 +33,6 @@
 /* Begin PBXFileReference section */
 		A4FCC87A1DE0E18100D9097D /* WakeUpSunshine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeUpSunshine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FCC87D1DE0E18100D9097D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4FCC87F1DE0E18100D9097D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4FCC8821DE0E18100D9097D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4FCC8841DE0E18100D9097D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4FCC8861DE0E18100D9097D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4FCC88B1DE0E18100D9097D /* WakeUpSunshineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeUpSunshineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,8 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				A4FCC87D1DE0E18100D9097D /* AppDelegate.swift */,
-				A4FCC87F1DE0E18100D9097D /* ViewController.swift */,
-				A4FCC8811DE0E18100D9097D /* Main.storyboard */,
 				A4FCC8841DE0E18100D9097D /* Assets.xcassets */,
 				A4FCC8861DE0E18100D9097D /* Info.plist */,
 			);
@@ -233,7 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4FCC8851DE0E18100D9097D /* Assets.xcassets in Resources */,
-				A4FCC8831DE0E18100D9097D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4FCC8801DE0E18100D9097D /* ViewController.swift in Sources */,
 				A4FCC87E1DE0E18100D9097D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,17 +285,6 @@
 			targetProxy = A4FCC8971DE0E18100D9097D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A4FCC8811DE0E18100D9097D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4FCC8821DE0E18100D9097D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A4FCC89D1DE0E18100D9097D /* Debug */ = {
@@ -502,6 +483,7 @@
 				A4FCC8A11DE0E18100D9097D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4FCC8A21DE0E18100D9097D /* Build configuration list for PBXNativeTarget "WakeUpSunshineTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +492,7 @@
 				A4FCC8A41DE0E18100D9097D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4FCC8A51DE0E18100D9097D /* Build configuration list for PBXNativeTarget "WakeUpSunshineUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +501,7 @@
 				A4FCC8A71DE0E18100D9097D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

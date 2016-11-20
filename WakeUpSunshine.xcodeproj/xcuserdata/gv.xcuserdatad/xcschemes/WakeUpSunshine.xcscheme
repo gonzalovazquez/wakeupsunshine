@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A4FCC8791DE0E18100D9097D"
+               BuildableName = "WakeUpSunshine.app"
+               BlueprintName = "WakeUpSunshine"
+               ReferencedContainer = "container:WakeUpSunshine.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A4FCC88A1DE0E18100D9097D"
+               BuildableName = "WakeUpSunshineTests.xctest"
+               BlueprintName = "WakeUpSunshineTests"
+               ReferencedContainer = "container:WakeUpSunshine.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A4FCC8951DE0E18100D9097D"
+               BuildableName = "WakeUpSunshineUITests.xctest"
+               BlueprintName = "WakeUpSunshineUITests"
+               ReferencedContainer = "container:WakeUpSunshine.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A4FCC8791DE0E18100D9097D"
+            BuildableName = "WakeUpSunshine.app"
+            BlueprintName = "WakeUpSunshine"
+            ReferencedContainer = "container:WakeUpSunshine.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A4FCC8791DE0E18100D9097D"
+            BuildableName = "WakeUpSunshine.app"
+            BlueprintName = "WakeUpSunshine"
+            ReferencedContainer = "container:WakeUpSunshine.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A4FCC8791DE0E18100D9097D"
+            BuildableName = "WakeUpSunshine.app"
+            BlueprintName = "WakeUpSunshine"
+            ReferencedContainer = "container:WakeUpSunshine.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
